@@ -7,7 +7,17 @@
     <link href="{{ asset('css/app.css')  }}" rel="stylesheet" type="text/css">
 </head>
 <body>
-<h1>Prova!</h1>
+<alert type="success"> <strong>Success!</strong> Your account has benn updated</alert>
+
+<template id="alert-template">
+    <div class="Alert">
+
+        <slot></slot>
+
+        <span class="Alert__close">X</span>
+
+    </div>
+</template>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.10/vue.js"></script>
 <script src="{{ asset('js/all.js') }}"></script>
