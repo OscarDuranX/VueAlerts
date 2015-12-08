@@ -7,7 +7,7 @@
     <link href="{{ asset('css/app.css')  }}" rel="stylesheet" type="text/css">
 </head>
 <body>
-<alert type="success"> <strong>Success!</strong> Your account has benn updated</alert>
+<alert type="success"> <strong>Success!</strong> Your account has been updated</alert>
 
 <template id="alert-template">
     <div class="Alert">

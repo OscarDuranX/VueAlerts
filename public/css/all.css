@@ -1,2 +1,15 @@
+.Alert{
+    position: relative;
+    background: #dddddd;
+    border: 1px solid darkgray;
+    padding: 1em;
+}
 
+.Alert__close{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
 /*# sourceMappingURL=all.css.map */
