@@ -28,4 +28,16 @@ Vue.component('alert',{
 new Vue({
     el: 'body'
 })
+/**
+ * Created by oscar on 9/12/15.
+ */
+
+var object = {
+    message:'Sisisisi!'
+};
+
+new Vue({
+    el: '#app',
+    data: object
+});
 //# sourceMappingURL=all.js.map

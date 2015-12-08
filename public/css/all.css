@@ -22,4 +22,13 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+
+/** Ex1 **/
+
+#app{
+    border: 1px  solid #000;
+    color: green;
+    background: black;
+}
 /*# sourceMappingURL=all.css.map */
