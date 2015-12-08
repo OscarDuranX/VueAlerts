@@ -10,11 +10,11 @@
 <alert type="success"> <strong>Success!</strong> Your account has been updated</alert>
 
 <template id="alert-template">
-    <div class="Alert">
+    <div class="Alert" v-show="show">
 
         <slot></slot>
 
-        <span class="Alert__close">X</span>
+        <span class="Alert__close" @click="show = false" >X</span>
 
     </div>
 </template>

@@ -1,6 +1,11 @@
 Vue.component('alert',{
 
-   template: '#alert-template'
+   template: '#alert-template',
+    data: function () {
+        return{
+            show: true
+        };
+    }
 });
 
 new Vue({
