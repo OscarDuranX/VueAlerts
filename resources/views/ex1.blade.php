@@ -8,9 +8,14 @@
 </head>
 <body>
 <h1>Exercici 1</h1>
-    {{ message }}
-<div id="app">
 
+<div id="app">
+{{ message | capitalize  }}
+<br>
+<input type="text" v-model="message"><br>
+{{ a }}
+
+<pre>{{ $data | json }}</pre>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.10/vue.js"></script>
