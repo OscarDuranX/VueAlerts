@@ -7,10 +7,14 @@
     <link href="{{ asset('css/app.css')  }}" rel="stylesheet" type="text/css">
 </head>
 <body>
-<alert type="success"> <strong>Success!</strong> Your account has been updated</alert>
+<alert type="error"> <strong>Error!</strong> Your account has not been updated</alert>
+
+<alert type="success"> <strong>Error!</strong> Your account has not been updated</alert>
+
+<alert> <strong>Error!</strong> Your account has not been updated</alert>
 
 <template id="alert-template">
-    <div :class="['Alert', type == 'success' ? 'Alert--Success' : '']"  v-show="show">
+    <div :class="alertClasses"  v-show="show">
 
         <slot></slot>
 
