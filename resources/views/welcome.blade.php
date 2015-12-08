@@ -10,7 +10,7 @@
 <alert type="success"> <strong>Success!</strong> Your account has been updated</alert>
 
 <template id="alert-template">
-    <div class="Alert" v-show="show">
+    <div :class="['Alert', type == 'success' ? 'Alert--Success' : '']"  v-show="show">
 
         <slot></slot>
 

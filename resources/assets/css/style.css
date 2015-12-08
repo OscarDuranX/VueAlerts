@@ -5,6 +5,11 @@
     padding: 1em;
 }
 
+.Alert--Success{
+    background: lightgreen;
+    border: 1px solid lightgreen;
+}
+
 .Alert__close{
     position: absolute;
     top: 1em;
