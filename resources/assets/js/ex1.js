@@ -6,7 +6,13 @@ var vm = new Vue({
     el: '#app',
     data:{
         message:'prova !',
-        a: 1
+        a: 210,
+        show: true
     },
+    computed:{
+        b: function(){
+            return this.a*2;
+        }
+    }
 
 });
